@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Refresh URL</title>
+</head>
+<body>
+    <p>The page will automatically refresh every 17 seconds.</p>
+
+    <script>
+        // Function to refresh the URL every 17 seconds
+        function refreshURL() {
+            var url = 'https://example.com'; // Replace 'https://example.com' with your desired URL
+            var interval = 17 * 1000; // Refresh interval in milliseconds (17 seconds in this example)
+
+            setTimeout(function() {
+                location.reload(); // Reload the page
+            }, interval);
+        }
+
+        // Call the refreshURL function when the page loads
+        window.onload = function() {
+            refreshURL();
+        };
+    </script>
+</body>
+</html>
