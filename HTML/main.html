@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open URL Multiple Times</title>
+</head>
+<body>
+    <button onclick="openURL()">Open URL 8 Times</button>
+
+    <script>
+        function openURL() {
+            var url = 'https://example.com'; // Replace 'https://example.com' with your desired URL
+            var times = 8; // Change the number to open the URL multiple times
+
+            for (var i = 0; i < times; i++) {
+                window.open(url, '_blank');
+            }
+        }
+    </script>
+</body>
+</html>
