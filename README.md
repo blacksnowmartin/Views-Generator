@@ -3,6 +3,6 @@ This is a simple makeshift program that is designed to generate views in social 
 
 To be used with a lot of care as it may result your online profiles being banned or restricted.
 
-The code was written purely as an amateur. 
+The code was written purely amateurishly. 
 
 # ⚠️⚠️⚠️ For Educational purposes only ⚠️⚠️⚠️
